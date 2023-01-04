@@ -1,0 +1,57 @@
+.main-contents{
+    padding: 110px;
+    text-align: center;
+}
+
+.menu {
+    font-size: calc(var(--size) * 5);
+    cursor: pointer;
+    padding-right: 5px;
+    display: none;
+}
+
+.my-services {
+    padding: 100px;
+}
+
+.my-services h2 {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    color:#242627;
+}
+
+input {
+    width: 70%;
+    height: 40px;
+    border-radius: 6px;
+    outline: none;
+    border: solid .1rem #6b6767;
+    padding: 5px;
+}
+
+.recent {
+    text-align: left;
+}
+
+.images-services {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    width: 100%;
+    align-items: center;
+    gap: 20px;
+    padding: 15px;
+}
+
+.images-services .card-Md {
+    border-radius: 6px;
+    box-shadow:  0 0 5px rgba(0, 0, 0, .5);
+    height: 390px;
+    padding: 6px;
+}
+
+.images-services .card-Md img {
+    object-fit: cover;
+    width: 100%;
+    height:70%;
+}

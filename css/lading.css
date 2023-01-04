@@ -1,0 +1,348 @@
+.page-content-1 {
+    display: flex;
+    height: 100vh;
+    padding: 110px 100px 0px 100px;
+}
+
+.page-content-1 .content-follow {
+    align-self: center;
+    width: 50vw;
+    text-align: center;
+}
+
+.page-content-1 .content-follow .message {
+    text-align: center;
+    padding: 0 50px;
+}
+
+.page-content-1 .content-follow .message h1 {
+    font-size: calc(var(--spacing) * 3.4);
+    font-weight: 500;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.page-content-1 .content-follow .message h3 {
+    margin-bottom: 10px;
+    font-size: calc(var(--spacing) * 2.6);
+    font-weight: 400;
+    font-style: italic;
+}
+
+.page-content-1 .content-follow .message p {
+    font-size: calc(var(--spacing) * 2.2);
+    font-weight: 300;
+}
+
+.page-content-1 .content-follow .btn-group {
+    text-align: center;
+}
+
+.page-content-1 .content-follow .btn-group ul {
+    margin-top: 30px;
+    list-style: none;
+}
+
+.page-content-1 .content-follow .btn-group ul li:nth-child(1) {
+    margin-bottom: 40px;
+}
+
+.page-content-1 .content-follow .btn-group ul li button {
+    border-radius: 50px;
+    text-align: center;
+    padding: 15px 50px;
+    border: 3px solid #8b0e80;
+    cursor: pointer;
+    color: #8b0e80;
+    font-weight: 500;
+    font-size: calc(var(--spacing) * 2.4);
+    transition: .3s;
+}
+
+.page-content-1 .content-follow .btn-group ul li button:hover {
+    background: #8b0e80;
+    color: #fff;
+}
+
+.page-content-1 .logo-animate {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+}
+
+.page-content-1 .logo-animate img {
+    width: calc(var(--spacing) * 60);
+}
+
+.page-content-2 {
+    height: 100vh;
+    padding: 110px 100px 0px 100px;
+    text-align: center;
+}
+
+.page-content-2 h1 {
+    font-size: calc(var(--spacing) * 3.4);
+    font-weight: 500;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.page-content-2 .product-cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.page-content-2 .product-cards .btn-cervice button {
+    border-radius: 50px;
+    text-align: center;
+    padding: 5px 14px;
+    border: 2px solid #8b0e80;
+    cursor: pointer;
+    color: #8b0e80;
+    font-weight: 500;
+    font-size: calc(var(--spacing) * 2.3);
+    transition: .3s;
+}
+
+.page-content-2 .product-cards .btn-cervice button:hover {
+    background: #8b0e80;
+    color: #fff;
+}
+
+.page-content-2 .product-cards .cards-position {
+    display: flex; 
+    align-items: flex-end;
+    justify-content: center;
+    padding: 30px 0;
+    gap: 15px;
+}
+
+.page-content-2 .product-cards .cards-position span {
+    font-size: calc(var(--spacing) * 1.8);
+}
+
+.page-content-2 .product-cards .cards-position .card-image {
+    height: 80%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.page-content-2 .element-1 {
+    border-radius: 6px;
+    padding-bottom: 5px;
+    box-shadow:  0 0 5px rgba(0, 0, 0, .3);
+    height: 370px;
+    width: 300px;
+    align-items: center;
+}
+
+.page-content-2 .element-2 {
+    border-radius: 6px;
+    padding-bottom: 5px;
+    box-shadow:  0 0 5px rgba(0, 0, 0, .3);
+    height: 390px;
+    width: 300px;
+    align-items: center;
+}
+
+.page-content-2 .element-3 {
+    border-radius: 6px;
+    padding-bottom: 5px;
+    box-shadow:  0 0 5px rgba(0, 0, 0, .3);
+    height: 370px;
+    width: 300px;
+    align-items: center;
+}
+
+.page-content-3 .contact-content {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: calc(100vh - 250px);
+    padding: 10px 0 0px 100px;
+}
+
+.page-content-3 .contact-content .contact-container {
+    align-items: center;
+}
+
+.page-content-3 .contact-content .contact-container  h2 {
+    padding-bottom: 10px;
+}
+
+.page-content-3 .contact-content .contact-container .budget {
+    box-shadow:  0 0 5px rgba(0, 0, 0, .5);
+    border-radius: 6px;
+    padding: 10px 15px;
+    width: 500px;
+    background: #fff;
+}
+
+.page-content-3 .contact-content .contact-container .budget  input {
+    width: 100%;
+    padding: 6px;
+    outline: none;
+    margin-bottom: 9px;
+    border: solid 1px #ccc;
+    border-radius: 6px;
+}
+
+.page-content-3 .contact-content .contact-container .budget textarea {
+    width: 100%;
+    height: 190px;
+    padding: 6px;
+    outline: none;
+    border: solid 1px #ccc;
+    border-radius: 5px;
+}
+
+.page-content-3 .contact-content .contact-container .budget .budget-btn {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 6px;
+}
+
+.page-content-3 .contact-content .contact-container .budget .budget-btn .clean {
+    border-radius: 50px;
+    text-align: center;
+    padding: 3px 14px;
+    border: 1px solid #6e6a6e;
+    cursor: pointer;
+    color: #6e6a6e;
+    font-weight: 500;
+    font-size: calc(var(--spacing) * 2.3);
+    transition: .3s;
+}
+
+.page-content-3 .contact-content .contact-container .budget .budget-btn .clean:hover {
+    background: #a51010;
+    border: #a51010;
+    color: #fff;
+}
+
+.page-content-3 .contact-content .contact-container .budget .budget-btn .to-send {
+    border-radius: 50px;
+    text-align: center;
+    padding: 3px 14px;
+    border: 2px solid #8b0e80;
+    cursor: pointer;
+    color: #8b0e80;
+    font-weight: 500;
+    font-size: calc(var(--spacing) * 2.3);
+    transition: .3s;
+}
+
+.page-content-3 .contact-content .contact-container .budget .budget-btn .to-send:hover {
+    background: #8b0e80;
+    color: #fff;
+}
+
+.page-content-3 .contact-content .logo-animate {
+    display: flex;
+    justify-content: center;
+    align-items:flex-end;
+    width: 50vw;
+}
+
+.page-content-3 .contact-content .logo-animate img {
+    width: calc(var(--spacing) * 50);
+}
+
+.page-content-3 .contact-position {
+    background: #333;
+    height: 150px;
+    padding: 0 100px;
+}
+
+.page-content-3 .contact-position .contact-b {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    color:#fff;
+}
+
+.page-content-3 .contact-position .contact-b .logo {
+    font-size: calc(var(--spacing) * 3);
+    font-weight: 900;
+    color: #ccc;
+}
+
+/*contato / rodape*/
+.page-content-3 .contact-position .contact-b .tel {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    gap:6px
+}
+
+.page-content-3 .contact-position .contact-b .tel span {
+    font-size: calc(var(--spacing) * 2.5);
+}
+
+.page-content-3 .contact-position .contact-b .tel .icon {
+    height: 40px;
+    width: 40px;
+    background: #8b0e80;
+    padding: 6px;
+    color: #ccc;
+    border-radius: 50px;
+    font-size: calc(var(--spacing) * 3);
+}
+
+/*E-MAIL*/
+.page-content-3 .contact-position .contact-b .email {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    padding: 6px;
+    gap: 10px;
+}
+
+.page-content-3 .contact-position .contact-b .email .icon {
+    height: 40px;
+    width: 40px;
+    background: #8b0e80;
+    padding: 6px;
+    color: #ccc;
+    border-radius: 50px;
+    font-size: calc(var(--spacing) * 3);
+}
+
+.page-content-3 .contact-position .contact-b .email span {
+    font-size: calc(var(--spacing) * 2.5);
+}
+
+/*redes sociais*/
+.page-content-3 .contact-position .contact-b .social-networks {
+    padding: 10px;
+    width: 0,25%;
+    font-size: calc(var(--spacing) * 2.5);
+}
+
+.page-content-3 .contact-position .buttons-networks {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    gap: 6px;
+    padding-top: 6px;
+}
+
+.page-content-3 .contact-position .buttons-networks span {
+    cursor: pointer;
+    text-align: center;
+    height: 40px;
+    width: 40px;
+    background: #8b0e80;
+    padding: 6px;
+    color: #ccc;
+    border-radius: 50px;
+    font-size: calc(var(--spacing) * 3); 
+}
